@@ -82,13 +82,75 @@ c. Reference types are generally O(n) , where n is the length (for arrays) or th
 
 #### Logarithms
 
-* Example: 
+* In mathematics, the logarithm is the inverse function to exponentiation. A logarithm is the power to which a number must be raised in order to get some other number.
+* Searching algorithms have logrithmic time complexity, sorting algorithms involve logrithms and recursion somtimes involves logrithmic space complexity
+
 ```
-How many 2s do we multiply to get 8?
+Example: How many 2s do we multiply to get 8?
 Answer: 2 × 2 × 2 = 8, so we had to multiply 3 of the 2s to get 8
 So the logarithm is 3
 
 The number we multiply is called the "base", so we can say:
 
 "the logarithm of 8 with base 2 is 3"
+or "log base 2 of 8 is 3"
+or "the base-2 log of 8 is 3"
+
+Example: What is log5(625) ... ?
+5 × 5 × 5 × 5 = 625, so we need 4 of the 5s
+Answer: log5(625) = 4
 ```
+```
+a. O(log n) --> Good
+b. O(nlog n) --> Slightly Better than O(n^2)
+
+```
+
+![alt text](https://i.imgur.com/g8zYyt2.png)
+
+#### Objects
+
+* Un-ordered key value pairs
+* Fast access/removal and insertion
+
+```
+BigO:
+
+Insertion - O(1)
+Removal - O(1)
+Searching - O(N)
+Access - O(1)
+
+Object.keys - O(N)
+Object.values - O(N)
+Object.entries - O(N)
+Object.hasOwnProperty - O(1)
+```
+
+#### Arrays
+
+* Ordered List
+* Fast access/removal (sort of..)
+
+```
+BigO:
+
+Insertion - It depends..
+Removal - It depends..
+Searching - O(N)
+Access - O(1)
+
+push - O(1)
+pop - O(1)
+shift - O(N)
+unshift - O(N)
+concat - O(N)
+slice - O(N)
+splice - O(N)
+sort - O(N * logN)
+filter/forEach/map/reduce etc.. - O(N)
+```
+
+#### Algorithms
+
+* A process or set of steps to accomplish a certain task. Almost everything you do in programming involves some kind of algorithm.
