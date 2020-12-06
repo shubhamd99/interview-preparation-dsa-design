@@ -154,3 +154,27 @@ filter/forEach/map/reduce etc.. - O(N)
 #### Algorithms
 
 * A process or set of steps to accomplish a certain task. Almost everything you do in programming involves some kind of algorithm.
+
+#### Understanding the Problem
+
+1. Can I restate the problem in my own words?
+2. What are the inputs that go into the problem?
+3. What are the outputs that should come from the solution to the problem?
+4. Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem? 
+5. How should I label the important pieces of data that are a part of the problem.
+
+#### Frequency Counters
+
+* This pattern uses objects or sets to collect values/frequencies of values. This can often avoid the need for nested loops or (O^2) operations with arrays/strings.
+
+#### Multiple Pointers
+
+* Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on certain condition. Very efficient for solving problems with minimal space compexity as well.
+
+#### Sliding Window
+
+* This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window either increases or closes (and a new window is created). Very useful for keeping track of a subset of data in an array/string
+
+#### Divide & Conquer
+
+* This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data. This process can tremendously decrease time complexity. (Sorting Algorithms, Searching Algorithms)
