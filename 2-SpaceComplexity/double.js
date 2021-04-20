@@ -10,3 +10,5 @@ function double(arr) {
     return newArr; // n numbers
 }
 
+console.log(double([4,5,6])); // [ 8, 10, 12 ]
+
