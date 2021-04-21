@@ -213,3 +213,18 @@ function* fibonacci() {
   }
 }
 ```
+
+#### Recursion?
+
+A process (a function in our case) that calls itself.
+* Example - 
+  1. JSON.stringify and JSON.parse
+    2. document.getElementById and DOM traversal algorithms
+    3. Object traversal
+
+#### Call Stack
+
+* In almost all program languages, there is a built in data structure that manages what happens when functions are invoked.
+* Any time a function is invoked it is placed (pushed) on the top of the call stack
+* When JS sees the return keyword or when the function ends, the compiler will remove (pop)
+* When we write recursion functions, we keep pushing new functions onto the call stack!!
