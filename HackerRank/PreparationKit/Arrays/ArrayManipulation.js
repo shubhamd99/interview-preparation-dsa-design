@@ -110,12 +110,6 @@ function arrayManipulation(n, queries) {
         }
     }
 
-    for (let i = 0; i <= queries.length - 1; i++) {
-
-    }
-
-
-
     return max;
 }
 
