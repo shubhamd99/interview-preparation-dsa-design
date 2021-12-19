@@ -74,12 +74,12 @@ var nextPermutation = function(nums) {
     // the subarray to the right of N[i] will still be in the correct order even after the swap.
     // (Even if we don't actually find the target, we still want to reverse the entire array, per the instructions.)
 
-    // 6 > 6 -> false
+    // 6 < 6 -> false
     while (j < k) {
         swap(j++,k--)
     };
 
-    // i = 5 -> true
+    // 5 >= 0  -> true
     if (i >= 0) {
         for (j = i + 1; nums[i] >= nums[j];) j++
         swap(i,j)
