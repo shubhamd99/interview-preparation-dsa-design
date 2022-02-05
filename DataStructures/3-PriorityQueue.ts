@@ -74,4 +74,9 @@ interface Person {
 }
 
 var priorityQueue: PriorityQueue<Person> = new PriorityQueue<Person>();
+priorityQueue.add({
+    name: 'Shubham Dhage',
+    age: 10,
+    priority: 1,
+});
 
