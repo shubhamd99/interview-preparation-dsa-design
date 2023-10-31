@@ -123,7 +123,7 @@ class HashTableWithoutCollision {
   get(key) {
     const target = this._hash(key);
     if (this.table[target]) {
-      for (let i = 0; i < this.table.length; i++) {
+      for (let i = 0; i < this.table[index].length; i++) {
         if (this.table[target][i][0] === key) {
           return this.table[target][i][1];
         }
@@ -138,7 +138,7 @@ class HashTableWithoutCollision {
     const index = this._hash(key);
 
     if (this.table[index] && this.table[index].length) {
-      for (let i = 0; i < this.table.length; i++) {
+      for (let i = 0; i < this.table[index].length; i++) {
         if (this.table[index][i][0] === key) {
           this.table[index].splice(i, 1);
           this.size--;
