@@ -38,6 +38,8 @@ function URLify2(str, trueLength) {
   let newLength = trueLength + spaceCount * 2; // 17
   str[newLength] = "\0"; // Denotes the string end - 17th place
 
+  console.log("new length", newLength); // 17
+
   // Replace with %20
   // Will Start from end of the string
   for (let idx = trueLength - 1; idx >= 0; idx--) {
@@ -57,4 +59,3 @@ function URLify2(str, trueLength) {
 }
 
 console.log(URLify2("Mr John Smith    ", 13)); // Mr%20John%20Smit
-console.log(URLify2("Mr John Smith", 13)); // Mr%20John%20Smit
