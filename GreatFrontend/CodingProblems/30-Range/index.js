@@ -5,6 +5,8 @@
 
 // Lodash _.range
 
+// Edge Case: To handle cases where start and step are not specified but end is negative, we can add an if statement to change the value of step to -1.
+
 /**
  * @param {Number} start - The first number of the resultant array.
  * @param {Number} end - The value where the resultant array will stop at and not contain it.
