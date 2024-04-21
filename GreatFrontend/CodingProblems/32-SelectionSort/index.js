@@ -46,6 +46,22 @@ function selectionSort(arr) {
 // The space complexity of selection sort is O(1) when performed in-place, as it only requires a constant amount of extra space for storing variables.
 // However, if the sorting algorithm is not performed in-place, the space complexity would be O(n) as additional memory would be required to store the sorted elements.
 
+// Selection Vs. Insertion sort:-
+
+// Selection sort works by repeatedly finding the smallest element in the unsorted portion of the list and
+// swapping it with the first element of the unsorted portion.
+// This process is repeated until the entire list is sorted.
+// Time complexity - O(n^2)
+// Space - O(1)
+// In-place - Yes
+
+// Insertion sort works by repeatedly taking an element from the unsorted portion of the list and
+// inserting it into the correct position in the sorted portion of the list.
+// This process is repeated until the entire list is sorted.
+// Time complexity - O(n^2)
+// Space - O(1)
+// In-place - Yes
+
 /**
  * @param {Array<number>} arr The input integer array to be sorted.
  * @return {Array<number>}
