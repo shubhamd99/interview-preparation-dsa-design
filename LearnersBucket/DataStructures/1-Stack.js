@@ -13,6 +13,9 @@
 // clear(): Removes all the items of the Stack.
 // size(): Returns the length of the stack.
 
+// O(1) (Constant Time) → Execution time stays the same regardless of input size.
+// O(n) (Linear Time) → Execution time grows proportionally with input size.
+
 // Time complexity
 // Access - O(n)
 // Search - O(n)

@@ -47,6 +47,25 @@
 // size(): Returns the size of the list.
 // getHead(): Returns the whole list.
 
+// O(1) (Constant Time) → Execution time stays the same regardless of input size.
+// O(n) (Linear Time) → Execution time grows proportionally with input size.
+
+// Time Complexity:
+// Access (by index) → O(n)
+// Search → O(n)
+// Insertion at head → O(1)
+// Insertion at tail → O(1) (if tail pointer exists)
+// Insertion at middle → O(n)
+// Deletion at head → O(1)
+// Deletion at tail → O(n) (O(1) if doubly linked list with tail)
+// Deletion at middle → O(n)
+
+// Space Complexity:
+// Overall space → O(n)
+// Extra space per node → O(1) (data + pointer)
+// Singly Linked List → 1 pointer per node
+// Doubly Linked List → 2 pointers per node
+
 // Node
 class Node {
   constructor(elm, next = null) {
