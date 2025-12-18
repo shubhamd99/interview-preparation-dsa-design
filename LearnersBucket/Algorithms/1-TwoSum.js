@@ -41,6 +41,7 @@ function findSum(arr, k) {
   return isFound;
 }
 
+console.log("findSum");
 console.log(findSum([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 25));
 console.log(findSum([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 100));
 
@@ -74,7 +75,9 @@ console.log(findSum([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 100));
  */
 function findSum2(arr, k) {
   // Sort the array (Inbuilt function)
-  arr.sort();
+  arr.sort((a, b) => a - b);
+
+  console.log(arr);
 
   let low = 0;
   let high = arr.length - 1;
@@ -102,6 +105,7 @@ function findSum2(arr, k) {
   return isFound;
 }
 
+console.log("findSum2");
 console.log(findSum2([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 25));
 console.log(findSum2([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 100));
 
@@ -137,5 +141,6 @@ function findSum3(arr, k) {
   return isFound;
 }
 
+console.log("findSum3");
 console.log(findSum3([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 25));
 console.log(findSum3([15, 4, 9, 3, 2, 12, 11, 14, 21, 24, 1, 10], 100));
