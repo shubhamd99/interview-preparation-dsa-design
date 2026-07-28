@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.selection-board {
+  position: relative;
+  display: inline-block;
+}
+
+.cell-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  margin: 50px;
+  border: 1px solid #000;
+}
+
+.grid-square {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+}
+
+.grid-square--active {
+  background: #6ab04c;
+}
+
+.drag-selection {
+  position: fixed;
+  display: none;
+  pointer-events: none;
+  border: 1px dashed #6ab04c;
+  z-index: 1000;
+}
