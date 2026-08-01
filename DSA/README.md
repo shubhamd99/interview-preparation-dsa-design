@@ -261,6 +261,7 @@
 | 3   | Insert Interval              | 57    | Medium     |
 | 4   | Non-Overlapping Intervals    | 435   | Medium     |
 | 5   | Meeting Rooms II             | 253   | Medium     |
+| 6   | My Calendar I                | 729   | Medium     |
 
 ### DAY 16 — K-way Merge and Greedy
 
@@ -439,10 +440,9 @@
 | 1   | Range Sum Query Immutable           | 303   | Easy       |
 | 2   | Range Sum Query Mutable             | 307   | Medium     |
 | 3   | Count of Smaller Numbers After Self | 315   | Hard       |
-| 4   | My Calendar I                       | 729   | Medium     |
-| 5   | Binary Tree Inorder Iterative       | 94    | Easy       |
-| 6   | Binary Tree Preorder Iterative      | 144   | Easy       |
-| 7   | Decode String Iterative             | 394   | Medium     |
+| 4   | Binary Tree Inorder Iterative       | 94    | Easy       |
+| 5   | Binary Tree Preorder Iterative      | 144   | Easy       |
+| 6   | Decode String Iterative             | 394   | Medium     |
 
 ### DAY 30 — Reservoir Sampling and Hard Revision
 
