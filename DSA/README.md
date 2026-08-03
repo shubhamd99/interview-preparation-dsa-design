@@ -442,7 +442,6 @@
 | 3   | Count of Smaller Numbers After Self | 315   | Hard       |
 | 4   | Binary Tree Inorder Iterative       | 94    | Easy       |
 | 5   | Binary Tree Preorder Iterative      | 144   | Easy       |
-| 6   | Decode String Iterative             | 394   | Medium     |
 
 ### DAY 30 — Reservoir Sampling and Hard Revision
 
@@ -534,7 +533,7 @@
 | -------------- | ----- |
 | Total Days     | 36    |
 | Total Patterns | 44    |
-| Total Problems | 191   |
+| Total Problems | 190   |
 | **Easy**       | 43    |
-| **Medium**     | 111   |
+| **Medium**     | 110   |
 | **Hard**       | 37    |
