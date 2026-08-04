@@ -1,3 +1,5 @@
+// https://devtools.tech/questions/s/group-products-by-category---qid---yIfGCWqhyM7TxFu2ZPUj?language=javascript&sort=createdAt
+
 // You are given an array of product objects where each product belongs to a category.
 
 // Your task is to group all products by their category and return an object where:
