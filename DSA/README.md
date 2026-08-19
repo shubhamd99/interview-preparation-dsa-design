@@ -472,11 +472,10 @@
 
 | #   | Problem                          | LC ID | Difficulty |
 | --- | -------------------------------- | ----- | ---------- |
-| 1   | Burst Balloons                   | 312   | Hard       |
-| 2   | Strange Printer                  | 664   | Hard       |
-| 3   | Minimum Cost to Cut a Stick      | 1547  | Hard       |
-| 4   | Partition to K Equal Sum Subsets | 698   | Medium     |
-| 5   | Shortest Path Visiting All Nodes | 847   | Hard       |
+| 1   | Strange Printer                  | 664   | Hard       |
+| 2   | Minimum Cost to Cut a Stick      | 1547  | Hard       |
+| 3   | Partition to K Equal Sum Subsets | 698   | Medium     |
+| 4   | Shortest Path Visiting All Nodes | 847   | Hard       |
 
 ### DAY 33 — String Algorithms (KMP and Rabin-Karp)
 
@@ -533,7 +532,7 @@
 | -------------- | ----- |
 | Total Days     | 36    |
 | Total Patterns | 44    |
-| Total Problems | 190   |
+| Total Problems | 189   |
 | **Easy**       | 43    |
 | **Medium**     | 110   |
-| **Hard**       | 37    |
+| **Hard**       | 36    |
