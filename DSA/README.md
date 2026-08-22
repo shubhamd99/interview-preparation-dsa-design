@@ -483,10 +483,9 @@
 
 | #   | Problem                     | LC ID | Difficulty |
 | --- | --------------------------- | ----- | ---------- |
-| 1   | Implement strStr            | 28    | Easy       |
-| 2   | Repeated Substring Pattern  | 459   | Easy       |
-| 3   | Longest Happy Prefix        | 1392  | Hard       |
-| 4   | Longest Duplicate Substring | 1044  | Hard       |
+| 1   | Repeated Substring Pattern  | 459   | Easy       |
+| 2   | Longest Happy Prefix        | 1392  | Hard       |
+| 3   | Longest Duplicate Substring | 1044  | Hard       |
 
 ### DAY 34 — Math and Number Theory
 
@@ -532,7 +531,7 @@
 | -------------- | ----- |
 | Total Days     | 36    |
 | Total Patterns | 44    |
-| Total Problems | 189   |
-| **Easy**       | 43    |
+| Total Problems | 188   |
+| **Easy**       | 42    |
 | **Medium**     | 110   |
 | **Hard**       | 36    |
